@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Rapport Trinôme 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="menu-haut">
+        <span style="font-size: 1.2em;">SAE S1.03 - Trinôme 5</span>
+        <div style="margin-left: auto; padding-right: 20px;">
+            <a href="#p1">Théorie</a>
+            <a href="#p2">Pratique</a>
+            <a href="#p3">Planning</a>
+        </div>
+    </nav>
+
+    <div class="banniere-titre">
+        <h1>Dossier d'Administration Linux</h1>
+        <p>Groupe 105</p>
+    </div>
+
+    <section id="p1" class="zone-contenu">
+        <div class="container">
+            <h2>1. Théorie</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>La Virtualisation</h4>
+                    <p>Elle permet de faire tourner un ordinateur virtuel (VM) sur une machine physique. Nous utilisons <strong>VirtualBox</strong> (Hyperviseur Type 2).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="p2" class="zone-alternee">
+        <div class="container">
+            <h2>2. Pratique</h2>
+
+            <div class="row mb-4"><div class="col-12"><h3>A. Installation du Système</h3></div></div>
+
+            <div class="row mb-4 align-items-center">
+                <div class="col-md-6">
+                    <p><strong>1. Téléchargement :</strong> Récupération de l'ISO Ubuntu 24.04.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/iso.png" class="capture-ecran" alt="ISO">
+                </div>
+            </div>
+
+            <div class="row mb-4 align-items-center">
+                <div class="col-md-6">
+                    <p><strong>2. Disque :</strong> Choix de l'option "Effacer le disque" pour une installation propre.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/disque.png" class="capture-ecran" alt="Disque">
+                </div>
+            </div>
+
+            <div class="row mb-5 align-items-center">
+                <div class="col-md-6">
+                    <p><strong>3. Validation :</strong> Résumé des partitions avant installation.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/install.png" class="capture-ecran" alt="Install">
+                </div>
+            </div>
+
+            <hr> <div class="row my-5 align-items-center">
+                <div class="col-md-6">
+                    <h3>B. Configuration</h3>
+                    <p>Ressources allouées : 4 Go RAM, 2 CPU, 25 Go Disque.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/config.png" class="capture-ecran" alt="Config">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row my-5 align-items-center">
+                <div class="col-md-6">
+                    <h3>C. Utilisateurs</h3>
+                    <p>Création du groupe "Trinome5" et des comptes utilisateurs.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/users.png" class="capture-ecran" alt="Users">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row my-5 align-items-center">
+                <div class="col-md-6">
+                    <h3>D. Serveur Web</h3>
+                    <p>Installation d'Apache réussie.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/apache.png" class="capture-ecran" alt="Apache">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="p3" class="zone-contenu">
+        <div class="container">
+            <h2>3. Planning</h2>
+            <table class="planning">
+                <tr><th>Tâche</th><th>État</th></tr>
+                <tr><td>Installation</td><td class="etat-fini">FAIT</td></tr>
+                <tr><td>Configuration</td><td class="etat-fini">FAIT</td></tr>
+                <tr><td>Utilisateurs</td><td class="etat-fini">FAIT</td></tr>
+                <tr><td>Web</td><td class="etat-fini">FAIT</td></tr>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>SAE S1.03 - IUT de Paris - 2026</p>
+    </footer>
+
+</body>
+</html>
