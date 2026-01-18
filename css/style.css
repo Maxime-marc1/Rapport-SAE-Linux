@@ -1,0 +1,90 @@
+
+/* Marge pour le menu */
+body {
+    padding-top: 60px;
+    font-family: Arial, sans-serif;
+}
+
+/* 1.  MENU (Noir en haut) */
+.menu-haut {
+    background-color: #212529;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    z-index: 1000;
+}
+
+.menu-haut a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* 2.  BANNIÈRE (Bleue) */
+.banniere-titre {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* 3.  ZONES (Blanc et Gris) */
+.zone-contenu {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.zone-alternee {
+    background-color: #f2f2f2; /* Gris clair */
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+/* 4. IMAGES (Cadre blanc) */
+.capture-ecran {
+    width: 100%;
+    border: 4px solid white;
+    box-shadow: 0 0 5px black;
+    border-radius: 4px;
+}
+
+/* 5. TABLEAU */
+.planning {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.planning th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.planning td {
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+/* Case verte */
+.etat-fini {
+    background-color: #198754;
+    color: white;
+    font-weight: bold;
+}
+
+/* Pied de page */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
